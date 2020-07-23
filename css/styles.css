@@ -122,11 +122,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .site-nav-item.current {
-  border-bottom: 4px solid var(--accent-color);
-  border-radius: 2px;
-}
-
 .contacts {
   display: flex;
   margin-left: auto;
@@ -139,6 +134,8 @@ body {
 .contacts .link {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   text-decoration: none;
   color: inherit;
@@ -410,6 +407,7 @@ body {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  fill: currentColor;
 }
 
 .customers-item-box:hover {
