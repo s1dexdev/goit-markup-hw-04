@@ -167,7 +167,6 @@ body {
 /* Hero */
 
 .hero {
-  max-width: 1600px;
   height: 600px;
   margin: 0 auto;
 
@@ -431,7 +430,6 @@ body {
 
 /* Footer */
 .footer {
-  max-width: 1600px;
   margin: 0 auto;
 
   display: flex;
